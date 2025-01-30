@@ -17,10 +17,6 @@
         display: inline-block;
     }
     
-    h1,h2,h3,h4,h5,h6{
-        line-height: 0.8px;
-    }
-    
     body{
         font-family: "Josefin Sans", sans-serif;
         overflow-x: hidden;
@@ -97,9 +93,16 @@
         max-width: 467px;
         border-radius: 15px;
         background: #FF5A2F;
+        border: 2px solid #FF5A2F;
+        transition: 0.4s;
         padding: 18px 48px;
         margin-top: 45px;
         font-weight: 400;
+    }
+
+    #banner a:hover{
+        background: transparent;
+        color: #FF5A2F;
     }
 
     #banner img {
@@ -163,9 +166,16 @@
         max-width: 467px;
         border-radius: 15px;
         background: linear-gradient(270deg, #FF5A2F -2.47%, #FF6C44 103.28%);
+        border: 2px solid #FF724C;
         padding: 18px 55px;
         margin-top: 45px;
         font-weight: 400;
+        transition: 0.4s;
+    }
+
+    #about a:hover{
+        background: transparent;
+        color: #FF5A2F;
     }
 
     /* About end  */
@@ -175,6 +185,10 @@
     #pricing{
         padding: 120px 0;
         background: #FFF8F6;
+    }
+
+    .heading{
+        margin-bottom: 60px;
     }
 
     .p-header p{
@@ -194,20 +208,9 @@
         margin-top: 25px;
     }
 
-    .pricing-items{
-        margin-top: 60px;
-    }
-
- 
-    .middle .item{
-        margin: 0 auto;
-    }
-    .right .item{
-        margin-left: 70px
-    }
-  
-    .pricing-items .item{
-        width: 370px;
+     .item{
+        width: 346px;
+        height: 487px;
         border-radius: 25px;
         background: #FFF;
         padding: 53px 34px 33px 34px;
@@ -399,3 +402,76 @@
     }
 
     /* shef end  */
+
+    /* download start  */
+
+        #download{
+            background: #FBFBFB;
+        }
+
+        #download .container{
+            padding-top: 80px;
+            border-radius: 16px;
+            background: #FFF8F7;
+        }
+
+        .phone img{
+            width: 362.336px;
+            height: 588px;
+            margin-left: 120px;
+        }
+
+        .text-part{
+            width: 522px;
+            margin-left: 20px;
+            margin-top: 25px;
+        }
+
+        .text-part h3{
+            color: #1E1E1E;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2.7px;
+            margin-bottom: 30px;
+        }
+
+        .text-part p{
+            color: #2A2C41;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px; 
+            margin-bottom: 45px;
+        }
+
+        .get{
+            display: flex;
+            column-gap: 25px;
+        }
+
+        .get a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FBFBFB;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 215px;
+            height: 60px;
+            border-radius: 15px;
+            background: linear-gradient(270deg, #FF5A2F -2.47%, #FF6C44 103.28%);
+            border: 2px solid  #FF5A2F;
+            transition: 0.5s;
+        }
+
+         a:hover{
+            background: transparent;
+            color:  #FF5A2F;
+        }
+
+
+    /* download end  */
