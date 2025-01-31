@@ -475,3 +475,104 @@
 
 
     /* download end  */
+
+    /* footer start  */
+
+        #footer{
+         background: #1E1E1E;
+         padding-top: 103px;
+         color: #FFF;
+        }
+
+        .portion1 p{
+            width: 369px;
+            color: #E6E6E6;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px; 
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .icons{
+            display: flex;
+            padding-left: 0;
+            gap: 20px;
+        }
+
+        .icons li i {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.1);
+            color: #E6E6E6;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+        }
+        .portion1,
+        .portion2,
+        .portion3,
+        .portion4{
+            padding-left: 0;
+        }
+        
+        .portion2 li,
+        .portion3 li,
+        .portion4 li {
+            width: 100%;
+            color: #E6E6E6;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 35px;
+            margin-bottom: 20px;
+        }
+        .portion2 li span,
+        .portion3 li span,
+        .portion4 li span{
+            color: #FFF;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .portion2 #core,
+        .portion3 #core,
+        .portion4 #core{
+            margin-bottom: 30px;
+
+        }
+
+        .gaping{
+            display: flex;
+            gap: 75px;
+        }
+
+        .horizon{
+            border-top: 1px solid#363636;
+
+        }
+        
+        .horizon a{
+            color: #E6E6E6;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding: 35px 0;
+        }
+
+        .last-align{
+            display: flex;
+            justify-content: end;
+        }
+      
+        .policy{
+            display: flex;
+            align-items: center;
+            gap: 65px;
+        }
+
+    /* footer end  */

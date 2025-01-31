@@ -159,6 +159,9 @@
     }
 
     /* =============download============== */
+    #download .container{
+      padding-bottom: 30px;
+    }
 
     #download .text-part{
         width: 100%;
@@ -198,6 +201,37 @@
         height: 50px;
         font-size: 20px;
     }
+    /*==========footer=========== */
+
+         .portion1 {
+            margin-bottom: 50px;
+         }
+
+        .portion2 li,
+        .portion3 li,
+        .portion4 li {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+
+        .horizon a{
+            font-size: 18px;
+        }
+
+        .policy{
+            display: flex;
+            align-items: center;
+            margin-left: -30px;
+            
+        }
+
+        
+        .last-align{
+            display: flex;
+            justify-content: start;
+        }
+
     }
 
 
